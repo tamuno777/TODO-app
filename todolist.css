@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: rgb(226, 221, 221);
+
+}
+.container{
+    border: 0.5px solid  burlywood;
+    padding: 30px;
+    box-shadow: 5px 10px 8px burlywood;
+}
+.hello{
+    height: 50px;
+    width: 70px;
+    border-bottom: 2px solid burlywood;
+}
+.special-word{
+    color: burlywood;
+}
+
+#add{
+    background-color: burlywood;
+}
+.list{
+    border:1px solid burlywood !important;
+}
+input[type='radio']:checked+label ::after{
+    background-color: green !important;
+    border: 2px solid green;
+}
+.add-btn{
+    border:1px solid burlywood !important;
+    background-color: burlywood;
+}
+.eg{
+    border:1px solid burlywood !important;
+    height: 40px;
+    padding-left: 20px;
+
+}
+/* .business{
+    background-color: navajowhite;
+    padding-top: 50px; 
+
+}
+.personal{
+    background-color: rgba(238, 47, 26, 0.753);
+    padding-top: 50px; 
+
+}
+.school{
+    background-color: sienna;
+    padding-top: 50px; 
+
+} */
